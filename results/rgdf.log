@@ -1,0 +1,9 @@
+=== RGDF horizon 1 ===
+appended RGDF columns to <repo>\results\preds_h1.parquet
+=== RGDF horizon 6 ===
+appended RGDF columns to <repo>\results\preds_h6.parquet
+=== RGDF horizon 12 ===
+appended RGDF columns to <repo>\results\preds_h12.parquet
+=== RGDF horizon 24 ===
+appended RGDF columns to <repo>\results\preds_h24.parquet
+RGDF DONE

@@ -1,0 +1,20 @@
+device: cuda
+pairs train/cal/test: 3290786 704919 683095
+lstm epoch 1 train 0.2845 val 0.2314
+lstm epoch 2 train 0.2531 val 0.2287
+lstm epoch 3 train 0.2481 val 0.2248
+lstm epoch 4 train 0.2465 val 0.2273
+lstm epoch 5 train 0.2432 val 0.2278
+early stop
+tcn epoch 1 train 0.2580 val 0.2271
+tcn epoch 2 train 0.2442 val 0.2241
+tcn epoch 3 train 0.2408 val 0.2242
+tcn epoch 4 train 0.2384 val 0.2224
+tcn epoch 5 train 0.2353 val 0.2240
+tcn epoch 6 train 0.2340 val 0.2243
+early stop
+appended lstm/tcn to <repo>\results\preds_h1.parquet
+appended lstm/tcn to <repo>\results\preds_h6.parquet
+appended lstm/tcn to <repo>\results\preds_h12.parquet
+appended lstm/tcn to <repo>\results\preds_h24.parquet
+DL DONE

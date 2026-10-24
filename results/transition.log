@@ -1,0 +1,27 @@
+=== hard gate, horizon 1 ===
+  expert 0 n_train=1776288
+  expert 1 n_train=1237280
+  expert 2 n_train=149268
+appended rgdf_hard to <repo>\results\preds_h1.parquet
+=== hard gate, horizon 6 ===
+  expert 0 n_train=1701209
+  expert 1 n_train=1196882
+  expert 2 n_train=145329
+appended rgdf_hard to <repo>\results\preds_h6.parquet
+=== hard gate, horizon 12 ===
+  expert 0 n_train=1684761
+  expert 1 n_train=1187405
+  expert 2 n_train=144461
+appended rgdf_hard to <repo>\results\preds_h12.parquet
+=== hard gate, horizon 24 ===
+  expert 0 n_train=1669685
+  expert 1 n_train=1185640
+  expert 2 n_train=143760
+appended rgdf_hard to <repo>\results\preds_h24.parquet
+band           transition-1  transition-2
+model                                    
+rgdf_hard             18.17         72.26
+rgdf_nodecomp         18.08         71.65
+stpf                  17.82         64.53
+stpf_w                18.11         71.45
+TRANSITION DONE

@@ -1,0 +1,7 @@
+horizon 1 already has stpf_w, skipping
+horizon 6 already has stpf_w, skipping
+=== weighted, horizon 12 ===
+appended stpf_w to <repo>\results\preds_h12.parquet
+=== weighted, horizon 24 ===
+appended stpf_w to <repo>\results\preds_h24.parquet
+WEIGHTED DONE

@@ -1,0 +1,17 @@
+# data and large pipeline outputs are rebuilt locally
+data/raw/
+data/raw_by_station/
+data/processed/
+results/*.parquet
+results/*.pt
+results/*.npy
+results/*_ckpt.pt*
+results/*.err
+results/*.out
+results/pipeline.log
+results/revision_chain.log
+results/backup/
+results/archive*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

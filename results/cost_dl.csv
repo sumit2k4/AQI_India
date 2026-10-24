@@ -1,0 +1,3 @@
+model,fit_s,pred_s,n_params,n_train
+lstm,362.5,70.6,213012,3290786
+tcn,399.5,63.6,143956,3290786

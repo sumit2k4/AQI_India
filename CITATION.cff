@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or benchmark, please cite the paper below."
+title: "Regime-Gated Forecasting (RGF) for station-level PM2.5 prediction over India"
+type: software
+license: MIT
+authors:
+  - family-names: Malge
+    given-names: Renuka
+    orcid: "https://orcid.org/0000-0001-9274-8523"
+    affiliation: "Sir M Visvesvaraya Institute of Technology, Bengaluru (VTU, Belagavi)"
+  - family-names: Swamy
+    given-names: Suma
+    orcid: "https://orcid.org/0000-0002-6207-5898"
+    affiliation: "Dr. H N National College of Engineering, Bengaluru (VTU, Belagavi)"
+  - family-names: Sheshappa
+    given-names: S N
+    affiliation: "Sir M Visvesvaraya Institute of Technology, Bengaluru (VTU, Belagavi)"
+  - family-names: Gupta
+    given-names: Sumit
+    affiliation: "DeepCognix AI Labs, Bengaluru"
+preferred-citation:
+  type: article
+  title: "Regime-gated PM2.5 forecasting with regime-conditional conformal calibration for Indian monitoring stations"
+  authors:
+    - family-names: Malge
+      given-names: Renuka
+    - family-names: Swamy
+      given-names: Suma
+    - family-names: Sheshappa
+      given-names: S N
+    - family-names: Gupta
+      given-names: Sumit
+  journal: "Artificial Intelligence in Health"
+  year: 2026
+  notes: "Under review"
