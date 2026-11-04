@@ -1,0 +1,54 @@
+device: cuda
+pairs train/cal/test: 2603660 683215 704919
+src\dl_baselines_v2.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=amp)
+lstm2 mixed precision: False
+src\dl_baselines_v2.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+src\dl_baselines_v2.py:146: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+lstm2 epoch 1 train 0.2498 val 0.2256 lr 1.00e-03
+src\dl_baselines_v2.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+=== RESUME Wed Nov  4 19:11:42 IST 2026 ===
+device: cuda
+pairs train/cal/test: 2603660 683215 704919
+src\dl_baselines_v2.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=amp)
+lstm2 mixed precision: False
+lstm2 resumed after epoch 1 (best 0.2256, bad 0)
+src\dl_baselines_v2.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+src\dl_baselines_v2.py:146: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+lstm2 epoch 2 train 0.2296 val 0.2282 lr 1.00e-03
+src\dl_baselines_v2.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+src\dl_baselines_v2.py:146: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+lstm2 epoch 3 train 0.2146 val 0.2345 lr 1.00e-03
+src\dl_baselines_v2.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+src\dl_baselines_v2.py:146: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+lstm2 epoch 4 train 0.2029 val 0.2384 lr 5.00e-04
+src\dl_baselines_v2.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+src\dl_baselines_v2.py:146: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+lstm2 epoch 5 train 0.1906 val 0.2389 lr 5.00e-04
+src\dl_baselines_v2.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+src\dl_baselines_v2.py:146: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+lstm2 epoch 6 train 0.1855 val 0.2420 lr 5.00e-04
+early stop
+src\dl_baselines_v2.py:179: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=amp):
+lstm2 saved
+DL V2 TRAIN DONE ['lstm2']
+appended ['lstm2'] to results\preds_h1.parquet
+appended ['lstm2'] to results\preds_h6.parquet
+appended ['lstm2'] to results\preds_h12.parquet
+appended ['lstm2'] to results\preds_h24.parquet
+DL V2 MERGE DONE

@@ -180,8 +180,10 @@ Severe-hour MAE together with the weighting-only ablation (115.6 ug/m3 at 24 h v
 TCN, 133.7 for the unweighted fusion GBM and 141.6 for the LSTM), the highest 24 h Severe
 detection (POD 0.544 vs 0.386 for the TCN) with the highest false alarm ratio (0.445 vs 0.313),
 and a gate that improves accuracy only at 1 h. The 24 h margins over the sequence models are
-larger than in 2025 (Severe MAE -16.9 ug/m3 vs TCN, p < 0.001; CSI +0.050, 95 % interval +0.022
-to +0.081). Regime-conditional CQR covers 86.3 % of Severe-regime forecasts at 24 h (marginal
+larger than in 2025 (Severe MAE -16.9 ug/m3 vs TCN, p < 0.001; CSI +0.050, 95 % interval +0.021
+to +0.080). The re-tuned LSTM, rebuilt for this fold, is again the closest sequence baseline on
+Severe hours (122.9 ug/m3 at 24 h), and RGF's margin over it is significant (-7.3 ug/m3,
+p < 0.001) where it was not in 2025. Regime-conditional CQR covers 86.3 % of Severe-regime forecasts at 24 h (marginal
 CQR 81.0 %, split conformal 39.9 %), below the 90 % target by 1.7 to 3.7 points at 6 to 24 h.
 Scripts, result tables and stage logs are in `fold2/` (see `fold2/README.md`).
 

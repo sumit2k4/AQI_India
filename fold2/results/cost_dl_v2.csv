@@ -1,0 +1,2 @@
+model,fit_s,pred_s,n_params,n_train,best_val
+lstm2,18099.4,586.8,466196,2603660,0.2256352851153029
