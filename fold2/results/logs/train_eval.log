@@ -1,0 +1,12 @@
+=== horizon 1 ===
+rows train/cal/test: 2501068 661688 684744
+saved preds_h1.parquet
+=== horizon 6 ===
+rows train/cal/test: 2406887 636070 662785
+saved preds_h6.parquet
+=== horizon 12 ===
+rows train/cal/test: 2385993 629706 657468
+saved preds_h12.parquet
+=== horizon 24 ===
+rows train/cal/test: 2372373 624858 652671
+saved preds_h24.parquet

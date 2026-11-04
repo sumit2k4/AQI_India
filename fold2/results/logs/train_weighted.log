@@ -1,0 +1,9 @@
+=== weighted, horizon 1 ===
+appended stpf_w to results/preds_h1.parquet
+=== weighted, horizon 6 ===
+appended stpf_w to results/preds_h6.parquet
+=== weighted, horizon 12 ===
+appended stpf_w to results/preds_h12.parquet
+=== weighted, horizon 24 ===
+appended stpf_w to results/preds_h24.parquet
+WEIGHTED DONE

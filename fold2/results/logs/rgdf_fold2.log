@@ -1,0 +1,7 @@
+horizon 1 already has rgdf_nodecomp, skipping
+horizon 6 already has rgdf_nodecomp, skipping
+=== RGF fold2 horizon 12 ===
+appended RGF columns to results/preds_h12.parquet
+=== RGF fold2 horizon 24 ===
+appended RGF columns to results/preds_h24.parquet
+RGDF DONE

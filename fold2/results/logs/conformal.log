@@ -1,0 +1,5 @@
+h=1 q_scp=18.1 q_cqr=0.6
+h=6 q_scp=47.6 q_cqr=2.6
+h=12 q_scp=55.5 q_cqr=3.2
+h=24 q_scp=59.8 q_cqr=3.6
+saved conformal_summary.csv

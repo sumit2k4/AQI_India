@@ -1,0 +1,26 @@
+proposed configuration (selected on 2024): rgdf {'rgdf': 0.0, 'rgdf_nogate': 0.0, 'rgdf_nodecomp': 8.036023630800358, 'stpf_w': 8.023332402061328}
+h                  1      6      12     24
+model                                     
+climatology     33.10  33.26  33.31  33.40
+lgbm_uni         8.12  20.57  22.88  24.04
+lstm             8.39  20.11  22.69  24.03
+persistence      9.85  29.44  34.44  27.31
+rgdf_nodecomp    7.78  20.03  22.91  24.54
+ridge            8.77  24.61  26.13  25.46
+seasonal_naive  27.37  27.53  27.52  27.31
+stpf             7.81  19.60  22.17  23.71
+stpf_w           7.87  20.01  22.88  24.36
+tcn              8.50  19.79  22.41  23.65
+
+h                  1      6      12     24
+model                                     
+climatology     0.514  0.514  0.513  0.512
+lgbm_uni        0.948  0.745  0.694  0.657
+lstm            0.948  0.748  0.687  0.658
+persistence     0.926  0.520  0.380  0.558
+rgdf_nodecomp   0.951  0.767  0.708  0.668
+ridge           0.942  0.705  0.666  0.664
+seasonal_naive  0.561  0.560  0.559  0.558
+stpf            0.951  0.767  0.712  0.667
+stpf_w          0.950  0.769  0.706  0.671
+tcn             0.944  0.764  0.706  0.675

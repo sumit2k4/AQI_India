@@ -18,9 +18,12 @@ authors:
   - family-names: Gupta
     given-names: Sumit
     affiliation: "DeepCognix AI Labs, Bengaluru"
+  - family-names: Das
+    given-names: Abhijit
+    affiliation: "Manipal Institute of Technology Bengaluru, Manipal Academy of Higher Education"
 preferred-citation:
   type: article
-  title: "Regime-gated PM2.5 forecasting with regime-conditional conformal calibration for Indian monitoring stations"
+  title: "Regime-gated severity-weighted forecasting with regime-conditional conformal calibration for station-level PM2.5 prediction over India"
   authors:
     - family-names: Malge
       given-names: Renuka
@@ -30,6 +33,8 @@ preferred-citation:
       given-names: S N
     - family-names: Gupta
       given-names: Sumit
-  journal: "Artificial Intelligence in Health"
+    - family-names: Das
+      given-names: Abhijit
+  journal: "IEEE Access"
   year: 2026
   notes: "Under review"

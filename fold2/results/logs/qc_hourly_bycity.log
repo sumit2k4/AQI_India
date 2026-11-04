@@ -1,0 +1,59 @@
+split city Ahmedabad
+split city Bengaluru
+split city Chandigarh
+split city Chennai
+split city Delhi
+split city Faridabad
+split city Ghaziabad
+split city Gurugram
+split city Hyderabad
+split city Jaipur
+split city Kanpur
+split city Kolkata
+split city Lucknow
+split city Mumbai
+split city Noida
+split city Patna
+split city Pune
+split city Varanasi
+QC done for Ahmedabad stations so far 9
+QC done for Bengaluru stations so far 23
+QC done for Chandigarh stations so far 26
+QC done for Chennai stations so far 35
+QC done for Delhi stations so far 74
+QC done for Faridabad stations so far 78
+QC done for Ghaziabad stations so far 82
+QC done for Gurugram stations so far 86
+QC done for Hyderabad stations so far 100
+QC done for Jaipur stations so far 106
+QC done for Kanpur stations so far 110
+QC done for Kolkata stations so far 117
+QC done for Lucknow stations so far 124
+QC done for Mumbai stations so far 154
+QC done for Noida stations so far 158
+QC done for Patna stations so far 164
+QC done for Pune stations so far 176
+QC done for Varanasi stations so far 180
+stations kept: 90 / 180
+total 15-min stuck values flagged: 1020271
+hourly rows: 4734793
+city
+Delhi         36
+Mumbai         8
+Kolkata        7
+Bengaluru      7
+Patna          6
+Hyderabad      5
+Ghaziabad      4
+Noida          4
+Lucknow        3
+Chennai        3
+Jaipur         3
+Ahmedabad      1
+Chandigarh     1
+Kanpur         1
+Varanasi       1
+Faridabad      0
+Gurugram       0
+Pune           0
+Name: kept, dtype: int64

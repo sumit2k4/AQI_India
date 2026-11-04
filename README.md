@@ -3,9 +3,9 @@
 Implementation code, quality-control rules, station list, fixed chronological splits and the
 computed result tables for the paper
 
-> Malge R, Swamy S, Sheshappa SN, Gupta S. *Regime-gated PM2.5 forecasting with regime-conditional
-> conformal calibration for Indian monitoring stations.* Artificial Intelligence in Health
-> (under review), 2026.
+> Malge R, Swamy S, Sheshappa SN, Gupta S, Das A. *Regime-gated severity-weighted forecasting with
+> regime-conditional conformal calibration for station-level PM2.5 prediction over India.*
+> IEEE Access (under review), 2026.
 
 RGF forecasts hourly PM2.5 at 1, 6, 12 and 24 h ahead for every Central Pollution Control Board
 (CPCB) station in the benchmark. The pollution regime at issue time conditions every stage:
@@ -28,6 +28,7 @@ hand-entered. The configuration reported as "RGF" was chosen on the 2024 calibra
 ```
 src/        pipeline and analysis scripts
 results/    computed metric tables, station list, QC statistics, training logs
+fold2/      second test year: rolling-origin fold (train 2019-2022, calibrate 2023, test 2024)
 data/       empty; raw and processed data are rebuilt locally (see data/README.md)
 ```
 
@@ -168,6 +169,21 @@ coverage % / median width in ug/m3):
 Other tables in `results/`: per-city and per-season MAE, issue-time regime and escalation / decay
 subsets, transition-band analysis, feature importance, sensitivity, cost-loss value, training curves
 and training / inference cost.
+
+## Second test year (2024, rolling-origin fold)
+
+`fold2/` replicates the pipeline with every split boundary moved back by one year (train
+2019-01-08 to 2022-12-31, calibration 2023, test 2024) on the same 90 stations, with nothing
+tuned on 2024. The direction of every finding recurs: RGF has the lowest overall MAE at 1 h, an
+overall-error premium of 1.2 % (6 h) to 3.8 % (24 h) over the best average model, the lowest
+Severe-hour MAE together with the weighting-only ablation (115.6 ug/m3 at 24 h vs 132.4 for the
+TCN, 133.7 for the unweighted fusion GBM and 141.6 for the LSTM), the highest 24 h Severe
+detection (POD 0.544 vs 0.386 for the TCN) with the highest false alarm ratio (0.445 vs 0.313),
+and a gate that improves accuracy only at 1 h. The 24 h margins over the sequence models are
+larger than in 2025 (Severe MAE -16.9 ug/m3 vs TCN, p < 0.001; CSI +0.050, 95 % interval +0.022
+to +0.081). Regime-conditional CQR covers 86.3 % of Severe-regime forecasts at 24 h (marginal
+CQR 81.0 %, split conformal 39.9 %), below the 90 % target by 1.7 to 3.7 points at 6 to 24 h.
+Scripts, result tables and stage logs are in `fold2/` (see `fold2/README.md`).
 
 ## Citation
 
